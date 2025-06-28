@@ -246,6 +246,23 @@ form select {
   }
 }
 
+@media (max-width: 820px) {
+    .sub_header form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form select {
+    margin-top: 20px;
+    width: auto;
+  }
+}
+
+@media (max-width: 300px) {
+  .sub_header form {
+  margin-top: 200px;
+  }
+}
 /* Handling themes */
 
 .dark {
