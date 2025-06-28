@@ -247,15 +247,20 @@ form select {
   }
 }
 
-@media (max-width: 820px) {
-    .sub_header form {
+@media (max-width: 530px) {
+  .sub_header form {
     display: flex;
     flex-direction: column;
+    margin-top: 180px;
   }
 
   form select {
     margin-top: 20px;
     width: auto;
+  }
+
+  .button {
+    margin-top: 70px;
   }
 }
 
